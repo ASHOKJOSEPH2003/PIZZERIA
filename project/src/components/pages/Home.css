@@ -1,0 +1,17 @@
+.back {
+  background-image: url(../images/output-onlinepngtools.png);
+}
+
+.background {
+  background-color: #f9ddb1;
+}
+
+.border-bottom {
+  border-bottom: 5px solid black;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}

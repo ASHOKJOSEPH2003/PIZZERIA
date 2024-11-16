@@ -1,0 +1,45 @@
+.custom-navbar {
+    background-color: #Dc6601; /* Your custom color */
+  }
+  @font-face {
+    font-family: futura;
+    src: url(./futura/Futura\ Heavy\ font.ttf);
+  }
+  .futura{
+    font-family: futura;
+  }
+  .pizzalogo{
+    height: 50px;
+    width: 50px;
+  }
+  .carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.dropdown-menu {
+    max-width: 370px; /* Adjust as needed */
+    left: auto !important;
+    right: 0;
+}
+.cartitem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cartItemImg {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .cartItemDetail {
+    display: flex;
+    flex: 1;
+    padding: 0 20px;
+    flex-direction: column;
+  }
+ 

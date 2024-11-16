@@ -1,0 +1,63 @@
+.pizzamenu {
+    background-color: #f9ddb1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Add position relative */
+}
+
+.menutitle {
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: #dc6601;
+    
+    height: fit-content;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-selector button {
+    margin: 0 5px;
+}
+
+.filters {
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: sticky; /* Change position to sticky */
+    top: 0; /* Stick to the top */
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.summary {
+    text-align: center;
+    position: sticky; /* Add position sticky */
+    bottom: 0; /* Stick to the bottom */
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+.summary button {
+    margin-top: 10px;
+}

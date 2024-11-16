@@ -1,0 +1,28 @@
+body {
+    background-color: #f9ddb1; /* Set the desired background color for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.card {
+    /* Your card styles */
+    background-color: #dc6601; /* Set card background color */
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    color: black;
+    display: inline-flex;
+    gap: 50px;
+    margin: 10px;
+    margin-left: 65px;
+    height: var(--bs-card-height);
+    min-width: 0;
+    position: relative;
+}
+
+.menutitle {
+    /* Your menu title styles */
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    color: #dc6601;
+}

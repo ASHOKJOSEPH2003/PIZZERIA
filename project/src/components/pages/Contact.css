@@ -1,0 +1,33 @@
+
+  
+  .contact-form {
+    background-color:black;
+    padding: 20px;
+   color: #Dc6601;
+   margin-left: 50px;
+   margin-top: 50px;
+    border-radius: 10px;
+  }
+  
+  .contact-info {
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    height: fit-content;
+    border-radius: 10px;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 20px;
+    color: #Dc6601;
+  }
+  .menutitle{
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    color:  #Dc6601;
+    
+}
+  
